@@ -1,0 +1,99 @@
+body{
+    background-color: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.contenido {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.card-white:hover{
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+#biografia p {
+    margin-bottom: 40px;
+}
+
+.perfil{
+    border-radius: 50%;
+    border: 3px solid #cccccc;
+    width: 100px;
+    height: 100px;
+}
+
+.boton{
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #C61414;
+    opacity: 0.75;
+    width: 130px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.boton:hover{
+    transition: padding 1.2s,  font-size 1.2s;
+    opacity: 1;
+    background-color: #C61414;
+    padding: 17px;
+    color: white;
+    font-size: 17px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.list-inline{
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+  
+.list-inline li i{
+    font-size: 25px;
+}
+
+#name{
+    color: #D91717;
+}
+
+#job{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#tituloredes{
+    color: #D91717;
+}
+
+#titulopeliculas{
+    color: #D91717;
+}
+
+a{
+    color: rgba(151, 148, 148, 0.8);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #DD5555;
+}
